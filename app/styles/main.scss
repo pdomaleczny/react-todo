@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.app-container {
+  width: 80%;
+  max-width: 768px;
+  height: 60%;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -19,7 +19,7 @@ class Input extends Component {
 
   render() {
     return (
-      <div>
+      <div className='input-container'>
         <TextField
           floatingLabelText='New task'
           value={this.state.text}

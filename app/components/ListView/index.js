@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 import Delete from 'material-ui/svg-icons/action/delete';
 import { List, ListItem } from 'material-ui/List';
 import Subheader from 'material-ui/Subheader';
+import {
+  headerStyles,
+} from './styles';
 
 class ListView extends Component {
   renderTitle() {
@@ -16,7 +19,7 @@ class ListView extends Component {
   render() {
     return (
       <List>
-        <Subheader>{this.renderTitle()}</Subheader>
+        <Subheader style={headerStyles}>{this.renderTitle()}</Subheader>
         {
           this.props.tasks.map((el, index) =>
             <ListItem
