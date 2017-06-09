@@ -1,0 +1,23 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "React todo application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pdomaleczny/react-todo.git"
+  },
+  "keywords": [
+    "todo",
+    "react"
+  ],
+  "author": "Patryk Domaleczny <patryk.domaleczny@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdomaleczny/react-todo/issues"
+  },
+  "homepage": "https://github.com/pdomaleczny/react-todo#readme"
+}
