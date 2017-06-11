@@ -34,17 +34,3 @@ it('should return different title when no tasks', () => {
     expect(wrapper.find(Subheader).props().children).toEqual('You have no tasks. Add one 👌');
 });
 
-it('should trigger delete action', () => {
-    const tasks = ['Test', 'Test2'];
-    const wrapper = shallow(
-        <ListView tasks={tasks}/>
-    );
-
-    wrapper.instance().deleteTask = jest.fn();
-    wrapper.update();
-
-    wrapper.find(Delete).simulate('touchTap');
-
-    expect(wrapper.instance().deleteTask.mock.calls.length).toEqual(1);
-});
-
