@@ -4,8 +4,6 @@ import {
   ListView,
   Input,
 } from './components';
-// eslint-disable-next-line no-unused-vars
-import style from './styles/main.scss';
 
 class App extends Component {
   constructor(props) {
